@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--génération de la navbar pour intégration dans toutes les pages html via le fichier "FFxLH\src\pages\navBar.js" -->
+    <div id="navbar-container"></div>
+        <script type="module">
+            import { generateNavbar } from './FFxLH/src/pages/navBar.js';
+            document.getElementById('navbar-container').innerHTML = generateNavbar();
+        </script>
+</body>
+</html>
